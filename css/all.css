@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #adad8c;
+  color: #333;
+}
+
+.portfolio {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+
+  
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem 0;
+  background: #e2c061;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  margin-bottom: 0.2rem;
+}
+
+.social-icons img {
+  width: 30px;
+  margin: 0 10px;
+  transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.skills ul,
+.projects ul,
+.experience ul {
+  padding-left: 1.5rem;
+}
+
+.skills li,
+.projects li,
+.experience li {
+  margin-bottom: 0.5rem;
+}
+.hero h1 {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
