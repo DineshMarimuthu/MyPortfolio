@@ -41,3 +41,8 @@
     "tailwindcss": "^3.4.17"
   }
 }
+"homepage": "https://DineshMarimuthu.github.io/MyPortfolio",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
